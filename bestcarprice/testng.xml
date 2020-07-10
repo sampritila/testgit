@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POC Report" parallel="tests" thread-count="2" preserve-order="true">
+    <listeners>
+    </listeners>
+    <test name="Run CPQ Test Scripts">
+        <classes>
+            <class name="VerifyCarPrice"/>
+        </classes>
+    </test>
+</suite>
